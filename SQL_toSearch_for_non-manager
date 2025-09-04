@@ -1,0 +1,1 @@
+SELECT Name FROM Employess WHERE id NOT IN ( SELECT DISTINCT managerID FROM Employess WHERE managerID IS NOT NULL )
